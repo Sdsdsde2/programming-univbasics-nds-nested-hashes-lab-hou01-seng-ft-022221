@@ -43,6 +43,10 @@ end
 def aoh_update(aoh, row, key, new_value)
   # Update the AoH data at row and key to have the value of new_value
   # Return the updated AoH
+<<<<<<< HEAD
   aoh[row][key] = new_value
   aoh
+=======
+  aoh[row][key] = { new_value }
+>>>>>>> 50435c65d87b6835bb49f0af01e005c9db4c63ae
 end
